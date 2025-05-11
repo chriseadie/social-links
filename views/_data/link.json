@@ -1,0 +1,29 @@
+{
+    "data":[
+        {
+            "title":"Youtube",
+            "link":"https://www.youtube.com/@chriseadie7089",
+            "thumbnail":"youtube"
+        },
+        {
+            "title":"Instagram",
+            "link":"https://www.instagram.com/chris_eadie/",
+            "thumbnail":"instagram"
+        },
+        {
+            "title":"Threads",
+            "link":"https://www.threads.com/@chris_eadie",
+            "thumbnail":"threads"
+        },
+        {
+            "title":"Twitch",
+            "link":"https://www.twitch.tv/krypticcodex",
+            "thumbnail":"twitch"
+        },
+        {
+            "title":"My website",
+            "link":"https://www.chriseadie.com",
+            "thumbnail":"html5"
+        }
+    ]
+}

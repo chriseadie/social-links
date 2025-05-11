@@ -2,8 +2,9 @@
 export default function (eleventyConfig) {
     eleventyConfig.setInputDirectory("views");
     eleventyConfig.setOutputDirectory("docs");
-	eleventyConfig.setNunjucksEnvironmentOptions({
-		throwOnUndefined: true,
-		autoescape: false, // warning: don’t do this!
-	});
+    eleventyConfig.addPassthroughCopy("./assets/main.css");
+    eleventyConfig.addWatchTarget("./assets/main.css");
+    eleventyConfig.addPassthroughCopy("./assets/*.jpg");
+    eleventyConfig.addPassthroughCopy("./assets/*.ttf");
+    eleventyConfig.addNunjucksFilter("log", (val,item) => console.log(val,item));
 };

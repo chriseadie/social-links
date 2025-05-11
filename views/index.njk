@@ -1,12 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/main.css">
     <title>links.chriseadie.com</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="img-background">
+
+        <div class="img-headshot">
+            <img/>
+        </div>
+        <div class="text-title">
+            <h1>Chris Eadie</h1>
+        </div>
+        <div class="links-container">
+            {% for item in link.data %}
+                <a href="{{item.link}}">
+                    <div class="social-box">
+                        <p>{{item.title}}</p>
+                        <i class="fa-brands fa-{{item.thumbnail}}"></i>
+                    </div>
+                </a>    
+            {% endfor %}
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/09354491b0.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,98 @@
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+@font-face {
+    font-family: "pacifico";
+    src:url("./Pacifico-Regular.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "roboto";
+    src:url("./Roboto-Regular.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "domine";
+    src:url("./Domine-Regular.ttf");
+    font-weight: normal;
+}
+
+.img-background{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./anime-moon-landscape.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.text-title{
+    font-family: pacifico;
+    font-size: 30px;
+    color: #f08998;
+}
+
+.links-container{
+    width:70%;
+}
+
+.links-container a{
+    color: black;
+    text-decoration: none;
+}
+
+.links-container p{
+    color: #2570b5;
+    font-weight: bold;
+}
+
+.social-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: domine;
+    font-size: 18px;
+    box-shadow: #e58d9d 14px 14px 50px 0px;
+}
+
+.fa-youtube{
+    color:red;
+}
+
+.fa-twitch{
+    color:purple;
+}
+
+.fa-html5{
+    color: orangered;
+}
+
+.fa-instagram{
+    background: linear-gradient(purple, yellow);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-box p{
+    margin:0px;
+    width: 100%;
+    text-align: center;
+    margin-right: -20px;
+}
