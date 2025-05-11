@@ -1,0 +1,29 @@
+{
+  "name": "social-links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriseadie/social-links.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/chriseadie/social-links/issues"
+  },
+  "homepage": "https://github.com/chriseadie/social-links#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
