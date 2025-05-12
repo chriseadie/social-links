@@ -46,6 +46,7 @@ body{
 
 .links-container{
     width:70%;
+    max-width: 400px;
 }
 
 .links-container a{
